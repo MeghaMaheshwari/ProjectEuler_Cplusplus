@@ -8,9 +8,7 @@ For example, when the list is sorted into alphabetical order, COLIN, which is wo
 
 What is the total of all the name scores in the file? 
 
-  Solution : The solution reads the file and than sorts the words using a linkedlist. Though C++ has its own sort library, I did not use it here because I wanted to compare
-  the performancece of the code when I explicitly sort using linked list ( I used Linkedlist since inserting an entry is easy and fast ) as compared to the C++ sort library
+  Solution : The solution reads the file and than sorts the words using a linkedlist. Though C++ has its own sort library, I did not use it here because I wanted to compare the performancece of the code when I explicitly sort using linked list ( I used Linkedlist since inserting an entry is easy and fast ) as compared to the C++ sort library
   and also to learn more of coding which can be done only without relying on the inbuilt libraries.
   
-  Also I am using vector to store the words read from the file which can be easily eliminated by storing the words directly in the linkedlist as we are reading it. I used it
-  here since I plan to extend this further to find an even better way of doing it.
+  Also I am using vector to store the words read from the file which can be easily eliminated by storing the words directly in the linkedlist as we are reading it. I used it here since I plan to extend this further to find an even better way of doing it.
