@@ -53,6 +53,7 @@ int ReadFile::GetWordByWord()
 int main() 
 {
 	clock_t tStart = clock();
+	// Path is hard coded for now. Shall be made configurable
 	ReadFile MyFile("d:\p022_names.txt");
 	int Total = 0;
 	if(MyFile.GetWordByWord() == 0)
